@@ -40,7 +40,7 @@ namespace LiveSplit.DeathsDoor {
 
         // Personalized splits
         private readonly bool[] gameNightStates = new bool[3];
-        private readonly float[] gamePercentages = new float[3];
+        //private readonly float[] gamePercentages = new float[3];
 
         private bool saveIsInitialized = false;
 
@@ -137,10 +137,10 @@ namespace LiveSplit.DeathsDoor {
             return game.Read<float>(SaveSlots.New, 0x20 + 0x8 * index, 0x18, 0x18, 0x40);
         }
 
-        private float GamePercentageOfSlot(int index) {
-            string text = game.ReadString(game.Read<IntPtr>(SaveSlots.New, 0x20 + 0x8 * index, 0x38, 0xb0), EStringType.UTF16Sized);
-            return float.Parse(text);
-        }
+        //private float GamePercentageOfSlot(int index) {
+        //    string text = game.ReadString(game.Read<IntPtr>(SaveSlots.New, 0x20 + 0x8 * index, 0x38, 0xb0), EStringType.UTF16Sized);
+        //    return float.Parse(text);
+        //}
 
         private void UpdateAIBrains(IEnumerable<string> aiBrainsToCheck) {
             int version = game.Read<int>(BrainList.New + 0x1C);
