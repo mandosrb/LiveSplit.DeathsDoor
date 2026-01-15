@@ -94,9 +94,9 @@
     <Split name="&B;drop_truthtablet_5" text="Flames Tablet"/>
     <Split name="&B;drop_truthtablet_6" text="Gravedigger Tablet"/>
     <Split name="&B;drop_truthtablet_7" text="Owls Tablet"/>
-	<Split name="&B;drop_truthshard_1" text="Owls Tablet Shard 1"/>
-	<Split name="&B;drop_truthshard_2" text="Owls Tablet Shard 2"/>
-	<Split name="&B;drop_truthshard_3" text="Owls Tablet Shard 3"/>
+	<Split name="&B;drop_truthshard_1" text="Owls Tablet Shard Estate"/>
+	<Split name="&B;drop_truthshard_2" text="Owls Tablet Shard Forest"/>
+	<Split name="&B;drop_truthshard_3" text="Owls Tablet Shard Watchtowers"/>
     <Split name="TruthEnding" text="Truth Ending"/>
   </Parent>
 
