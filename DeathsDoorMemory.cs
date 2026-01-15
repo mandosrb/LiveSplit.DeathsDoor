@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using Voxif.AutoSplitter;
 using Voxif.Helpers.Unity;
 using Voxif.IO;
@@ -36,6 +37,11 @@ namespace LiveSplit.DeathsDoor {
         private int aiBrainVersion;
 
         private readonly float[] gameTimes = new float[3];
+
+        // Personalized splits
+        private readonly bool[] gameNightStates = new bool[3];
+        private readonly float[] gamePercentages = new float[3];
+
         private bool saveIsInitialized = false;
 
         private UnityHelperTask unityTask;
@@ -80,7 +86,7 @@ namespace LiveSplit.DeathsDoor {
             SpawnId.StringType = EStringType.UTF16Sized;
             countKeys.pointer = ptrFactory.Make<IntPtr>(gameSave, unity.GetFieldOffset(gameSaveClass, "countKeys"));
             boolKeys.pointer = ptrFactory.Make<IntPtr>(gameSave, unity.GetFieldOffset(gameSaveClass, "boolKeys"));
-
+            
             BrainList = ptrFactory.Make<IntPtr>("AI_Brain", "brainList");
         
             PlayerPosition = ptrFactory.Make<Vector3>("PlayerGlobal", "instance", 0x10, 0x30, 0x30, 0x8, 0x28, 0x10, 0x38, 0x180);
@@ -129,6 +135,11 @@ namespace LiveSplit.DeathsDoor {
 
         private float GameTimeOfSlot(int index) {
             return game.Read<float>(SaveSlots.New, 0x20 + 0x8 * index, 0x18, 0x18, 0x40);
+        }
+
+        private float GamePercentageOfSlot(int index) {
+            string text = game.ReadString(game.Read<IntPtr>(SaveSlots.New, 0x20 + 0x8 * index, 0x38, 0xb0), EStringType.UTF16Sized);
+            return float.Parse(text);
         }
 
         private void UpdateAIBrains(IEnumerable<string> aiBrainsToCheck) {
@@ -182,6 +193,27 @@ namespace LiveSplit.DeathsDoor {
                     yield return kvp.Key;
                 }
             }
+        }
+
+        private bool NightStateOfSlot(int index) {
+            return game.Read<bool>(SaveSlots.New, 0x20 + 0x8 * index, 0x18, 0x18, 0x44);
+        }
+
+        public bool NightChanged() {
+            if(SaveSlots.New == default) {
+                return false;
+            }
+            for(int slotId = 0; slotId < gameNightStates.Length; slotId++) {
+                bool isNight = NightStateOfSlot(slotId);
+                if(isNight != gameNightStates[slotId]) {
+                    bool oldNightState = gameNightStates[slotId];
+                    gameNightStates[slotId] = isNight;
+                    if(isNight && !oldNightState) {
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
         public IEnumerable<string> NewCountSequence() {

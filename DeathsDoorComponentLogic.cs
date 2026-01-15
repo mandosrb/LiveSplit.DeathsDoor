@@ -53,6 +53,9 @@ namespace LiveSplit.DeathsDoor {
                         return true;
                     }
                 }
+                if(memory.NightChanged()) {
+                    return true;
+                }
                 return false;
             }
 

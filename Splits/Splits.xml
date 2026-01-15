@@ -19,7 +19,9 @@
   <!ENTITY C_L "Castle Lockstone">
   <!ENTITY C_F_C "Camp of the Free Crows">
   <!ENTITY O_W "The Old Watchtowers">
-  <!ENTITY B_L "Betty's Lair">  
+  <!ENTITY B_L "Betty's Lair">
+  <!ENTITY W_S "World State">
+
 ]>
 <Splits>
   <Parent name="Bosses" text="Bosses" tip="Splits when beating a boss">
@@ -92,7 +94,15 @@
     <Split name="&B;drop_truthtablet_5" text="Flames Tablet"/>
     <Split name="&B;drop_truthtablet_6" text="Gravedigger Tablet"/>
     <Split name="&B;drop_truthtablet_7" text="Owls Tablet"/>
+	<Split name="&B;drop_truthshard_1" text="Owls Tablet Shard 1"/>
+	<Split name="&B;drop_truthshard_2" text="Owls Tablet Shard 2"/>
+	<Split name="&B;drop_truthshard_3" text="Owls Tablet Shard 3"/>
     <Split name="TruthEnding" text="Truth Ending"/>
+  </Parent>
+
+  <Parent name="Seeds" text="Seeds" tip="Splits when seeds planted">
+	<Split name="&B;plant_swampwavebattle" text="Plant last flooded fortress seed"/>
+	<Split name="&B;plant_basementend" text="Plant last furnace seed"/>
   </Parent>
 
   <Parent name="Weapons" text="Weapons" tip="Splits when unlocking a weapon">
@@ -161,5 +171,9 @@
     <Split name="&B;fortress_crow_soul2" text="&C_L; Soul 2 (Left)"/>
     <Split name="&B;fortress_crow_soul3" text="&C_L; Soul 3 (Left Door)"/>
     <Split name="&B;fortress_crow_soul4" text="&C_L; Soul 4 (Bottom)"/>
+  </Parent>
+
+  <Parent name="WorldState" text="World State" tip="Splits when world state changes">
+	<Split name="&B;world_state_night" text="&W_S; Night"/>
   </Parent>
 </Splits>
