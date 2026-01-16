@@ -84,22 +84,22 @@
 	- [Dungeon pot 2](#dungeon-pot-2)
 	- [Dungeon pot 3](#dungeon-pot-3)
 	- [Dungeon pot 4](#dungeon-pot-4)
-	- [Stranded Sailor Transition plant](#stranded-sailor-transition-plant)
-	- [Lockstone plant 1](#lockstone-plant-1)
-	- [Lockstone plant 2](#lockstone-plant-2)
-	- [Lockstone plant 3](#lockstone-plant-3)
-	- [Lockstone plant 4](#lockstone-plant-4)
-	- [Post Lockstone plant](#post-lockstone-plant)
-	- [Watchtowers plant 1](#watchtowers-plant-1)
-	- [Watchtowers plant 2](#watchtowers-plant-2)
-	- [Watchtowers plant 3](#watchtowers-plant-3)
-	- [Watchtowers plant 4](#watchtowers-plant-4)
-	- [Watchtowers plant 5](#watchtowers-plant-5)
-	- [Flooded Fortress plant 1](#flooded-fortress-plant-1)
-	- [Flooded Fortress plant 2](#flooded-fortress-plant-2)
-	- [Flooded Fortress plant 3](#flooded-fortress-plant-3)
-	- [Flooded Fortress plant 4](#flooded-fortress-plant-4)
-	- [Flooded Fortress plant 5](#flooded-fortress-plant-5)
+	- [Stranded Sailor Transition pot](#stranded-sailor-transition-pot)
+	- [Lockstone pot 1](#lockstone-pot-1)
+	- [Lockstone pot 2](#lockstone-pot-2)
+	- [Lockstone pot 3](#lockstone-pot-3)
+	- [Lockstone pot 4](#lockstone-pot-4)
+	- [Post Lockstone pot](#post-lockstone-pot)
+	- [Watchtowers pot 1](#watchtowers-pot-1)
+	- [Watchtowers pot 2](#watchtowers-pot-2)
+	- [Watchtowers pot 3](#watchtowers-pot-3)
+	- [Watchtowers pot 4](#watchtowers-pot-4)
+	- [Watchtowers pot 5](#watchtowers-pot-5)
+	- [Flooded Fortress pot 1](#flooded-fortress-pot-1)
+	- [Flooded Fortress pot 2](#flooded-fortress-pot-2)
+	- [Flooded Fortress pot 3](#flooded-fortress-pot-3)
+	- [Flooded Fortress pot 4](#flooded-fortress-pot-4)
+	- [Flooded Fortress pot 5](#flooded-fortress-pot-5)
 
 ---
 ### Seeds
@@ -357,50 +357,50 @@
 #### Dungeon pot 4
 ![plant_dungeonconnecting](seed_locations/plant_dungeonconnecting.png)
 
-#### Stranded Sailor Transition plant
+#### Stranded Sailor Transition pot
 ![plant_preservant3](seed_locations/plant_preservant3.png)
 
-#### Lockstone plant 1
+#### Lockstone pot 1
 ![plant_castleentrance](seed_locations/plant_castleentrance.png)
 
-#### Lockstone plant 2
+#### Lockstone pot 2
 ![plant_castlegardenwest](seed_locations/plant_castlegardenwest.png)
 
-#### Lockstone plant 3
+#### Lockstone pot 3
 ![plant_castlenortheast](seed_locations/plant_castlenortheast.png)
 
-#### Lockstone plant 4
+#### Lockstone pot 4
 ![plant_castlenorthwest](seed_locations/plant_castlenorthwest.png)
 
-#### Post Lockstone plant
+#### Post Lockstone pot
 ![plant_fortressexterior](seed_locations/plant_fortressexterior.png)
 
-#### Watchtowers plant 1
+#### Watchtowers pot 1
 ![plant_mountaintopsroute1](seed_locations/plant_mountaintopsroute1.png)
 
-#### Watchtowers plant 2
+#### Watchtowers pot 2
 ![plant_mountaintopsmiddle](seed_locations/plant_mountaintopsmiddle.png)
 
-#### Watchtowers plant 3
+#### Watchtowers pot 3
 ![plant_mountaintopsroute3](seed_locations/plant_mountaintopsroute3.png)
 
-#### Watchtowers plant 4
+#### Watchtowers pot 4
 ![plant_mountaintopsroute2](seed_locations/plant_mountaintopsroute2.png)
 
-#### Watchtowers plant 5
+#### Watchtowers pot 5
 ![plant_mountaintopsend](seed_locations/plant_mountaintopsend.png)
 
-#### Flooded Fortress plant 1
+#### Flooded Fortress pot 1
 ![plant_swamproute1](seed_locations/plant_swamproute1.png)
 
-#### Flooded Fortress plant 2
+#### Flooded Fortress pot 2
 ![plant_swamproute2](seed_locations/plant_swamproute2.png)
 
-#### Flooded Fortress plant 3
+#### Flooded Fortress pot 3
 ![plant_swampmiddle](seed_locations/plant_swampmiddle.png)
 
-#### Flooded Fortress plant 4
+#### Flooded Fortress pot 4
 ![plant_swamproute3](seed_locations/plant_swamproute3.png)
 
-#### Flooded Fortress plant 5
+#### Flooded Fortress pot 5
 ![plant_swampwavebattle](seed_locations/plant_swampwavebattle.png)
