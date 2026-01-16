@@ -100,9 +100,110 @@
     <Split name="TruthEnding" text="Truth Ending"/>
   </Parent>
 
-  <Parent name="Seeds" text="Seeds" tip="Splits when seeds planted">
-	<Split name="&B;plant_swampwavebattle" text="Plant last flooded fortress seed"/>
-	<Split name="&B;plant_basementend" text="Plant last furnace seed"/>
+  <Parent name="Seeds" text="Seeds" tip="Splits on seed pickup">
+    <Split name="&B;drop_seed_graveyardbuilding" text="Cemetery seed 1"/>
+    <Split name="&B;drop_seed_graveyardtower" text="Cemetery seed 2"/>
+    <Split name="&B;drop_seed_graveyardbrokenbridge" text="Cemetery seed 3"/>
+    <Split name="&B;drop_seed_graveyardcliff" text="Cemetery seed 4"/>
+    <Split name="&B;drop_seed_gardenintrostart" text="Estate seed 1"/>
+    <Split name="&B;drop_seed_gardensouthwest" text="Estate seed 2"/>
+    <Split name="&B;drop_seed_gardenbush" text="Estate seed 3"/>
+    <Split name="&B;drop_seed_gardennorthwest" text="Estate seed 4"/>
+    <Split name="&B;drop_seed_mansionrightshelves" text="Manor seed 1"/>
+    <Split name="&B;drop_seed_mansioncentre" text="Manor seed 2"/>
+    <Split name="&B;drop_seed_mansionlibraryshelves" text="Manor seed 3"/>
+    <Split name="&B;drop_seed_mansionleftshelves" text="Manor seed 4"/>
+    <Split name="&B;drop_seed_mansionsquareroom" text="Manor seed 5"/>
+    <Split name="&B;drop_seed_mansionattic" text="Manor seed 6"/>
+    <Split name="&B;drop_seed_ballroom" text="Manor seed 7"/>
+    <Split name="&B;drop_seed_basementintro" text="Observation seed 1"/>
+    <Split name="&B;drop_seed_basementshrineabyss" text="Observation seed 2"/>
+    <Split name="&B;drop_seed_basementconveyor" text="Inner Furnace seed 1"/>
+    <Split name="&B;drop_seed_basementplague1" text="Inner Furnace seed 2"/>
+    <Split name="&B;drop_seed_basementplague2" text="Inner Furnace seed 3"/>
+    <Split name="&B;drop_seed_forestintro" text="Ruins seed 1"/>
+    <Split name="&B;drop_seed_forestcorridor" text="Ruins seed 2"/>
+    <Split name="&B;drop_seed_forestvillage" text="Ruins seed 3"/>
+    <Split name="&B;drop_seed_forestmiddle" text="Ruins seed 4"/>
+    <Split name="&B;drop_seed_forestdrop" text="Ruins seed 5"/>
+    <Split name="&B;drop_seed_forestgargoyle" text="Ruins seed 6"/>
+    <Split name="&B;drop_seed_dungeonbridge" text="Dungeon seed 1"/>
+    <Split name="&B;drop_seed_dungeonprisonbreak" text="Dungeon seed 2"/>
+    <Split name="&B;drop_seed_dungeoneastexit" text="Dungeon seed 3"/>
+    <Split name="&B;drop_seed_dungeontwindoor" text="Dungeon seed 4"/>
+    <Split name="&B;drop_seed_dungeonconnect" text="Dungeon seed 5"/>
+    <Split name="&B;drop_seed_cavescrate" text="Stranded Sailor Transition seed"/>
+    <Split name="&B;drop_seed_sailormountain" text="Stranded Sailor seed"/>
+    <Split name="&B;drop_seed_castlegardenwest" text="Lockstone seed 1"/>
+    <Split name="&B;drop_seed_castleelevator" text="Lockstone seed 2"/>
+    <Split name="&B;drop_seed_castleeast" text="Lockstone seed 3"/>
+    <Split name="&B;drop_seed_castlegardeneast" text="Lockstone seed 4"/>
+    <Split name="&B;drop_seed_castledoor" text="Lockstone seed 5"/>
+    <Split name="&B;drop_seed_fortressexteriorcrate" text="Post Lockstone seed 1"/>
+    <Split name="&B;drop_seed_crowcavesledge" text="Post Lockstone seed 2"/>
+    <Split name="&B;drop_seed_crowcampstall" text="Camp seed"/>
+    <Split name="&B;drop_seed_mountaintopsroute1" text="Watchtowers seed 1"/>
+    <Split name="&B;drop_seed_mountaintopstruth" text="Watchtowers seed 2"/>
+    <Split name="&B;drop_seed_mountaintopshookshot" text="Watchtowers seed 3"/>
+    <Split name="&B;drop_seed_mountaintopsice" text="Watchtowers seed 4"/>
+    <Split name="&B;drop_seed_swampintrocrate" text="Flooded Fortress seed 1"/>
+    <Split name="&B;drop_seed_swampwatchtower" text="Flooded Fortress seed 2"/>
+    <Split name="&B;drop_seed_swampintroeast" text="Flooded Fortress seed 3"/>
+    <Split name="&B;drop_seed_swampstatue" text="Flooded Fortress seed 4"/>
+    <Split name="&B;drop_seed_swampbridge" text="Flooded Fortress seed 5"/>
+  </Parent>
+
+  <Parent name="Pots" text="Pots" tip="Splits when seed is planted">
+    <Split name="&B;plant_graveyardroute1" text="Cemetery pot 1"/>
+    <Split name="&B;plant_graveyardroute2" text="Cemetery pot 2"/>
+    <Split name="&B;plant_graveyardroute3" text="Cemetery pot 3"/>
+    <Split name="&B;plant_graveyardredeemer" text="Cemetery pot 4"/>
+    <Split name="&B;plant_preservant2" text="Cemetery pot 5"/>
+    <Split name="&B;plant_graveyardcatacombs" text="Spider Den pot"/>
+    <Split name="&B;plant_preservant1" text="Crypt pot"/>
+    <Split name="&B;plant_gardenintro" text="Estate pot 1"/>
+    <Split name="&B;plant_gardensoutheast" text="Estate pot 2"/>
+    <Split name="&B;plant_gardensouthwest" text="Estate pot 3"/>
+    <Split name="&B;plant_gardencentre" text="Estate pot 4"/>
+    <Split name="&B;plant_gardennortheast" text="Estate pot 5"/>
+    <Split name="&B;plant_secret1" text="Estate pot 6"/>
+    <Split name="&B;plant_secret2" text="Estate pot 7"/>
+    <Split name="&B;plant_mansiondining" text="Manor pot 1"/>
+    <Split name="&B;plant_mansioncentre" text="Manor pot 2"/>
+    <Split name="&B;plant_mansionlibrary" text="Manor pot 3"/>
+    <Split name="&B;plant_mansionattic1" text="Manor pot 4"/>
+    <Split name="&B;plant_mansionattic2" text="Manor pot 5"/>
+    <Split name="&B;plant_mansionbedroom" text="Manor pot 6"/>
+    <Split name="&B;plant_basementplaguewave" text="Inner Furnace pot 1"/>
+    <Split name="&B;plant_basementwest" text="Inner Furnace pot 2"/>
+    <Split name="&B;plant_basementeast" text="Inner Furnace pot 3"/>
+    <Split name="&B;plant_basementcentral" text="Inner Furnace pot 4"/>
+    <Split name="&B;plant_basementend" text="Inner Furnace pot 5"/>
+    <Split name="&B;plant_forestintro" text="Ruins pot 1"/>
+    <Split name="&B;plant_forestcorridor" text="Ruins pot 2"/>
+    <Split name="&B;plant_forestmiddle" text="Ruins pot 3"/>
+    <Split name="&B;plant_forestlastwave" text="Ruins pot 4"/>
+    <Split name="&B;plant_forestend" text="Ruins pot 5"/>
+    <Split name="&B;plant_dungeonnortheast" text="Dungeon pot 1"/>
+    <Split name="&B;plant_dungeoneast" text="Dungeon pot 2"/>
+    <Split name="&B;plant_dungeonsouth" text="Dungeon pot 3"/>
+    <Split name="&B;plant_dungeonconnecting" text="Dungeon pot 4"/>
+    <Split name="&B;plant_preservant3" text="Stranded Sailor Transition pot"/>
+    <Split name="&B;plant_castleentrance" text="Lockstone pot 1"/>
+    <Split name="&B;plant_castlegardenwest" text="Lockstone pot 2"/>
+    <Split name="&B;plant_castlenortheast" text="Lockstone pot 3"/>
+    <Split name="&B;plant_castlenorthwest" text="Lockstone pot 4"/>
+    <Split name="&B;plant_fortressexterior" text="Post Lockstone pot"/>
+    <Split name="&B;plant_mountaintopsroute1" text="Watchtowers pot 1"/>
+    <Split name="&B;plant_mountaintopsmiddle" text="Watchtowers pot 2"/>
+    <Split name="&B;plant_mountaintopsroute3" text="Watchtowers pot 3"/>
+    <Split name="&B;plant_mountaintopsroute2" text="Watchtowers pot 4"/>
+    <Split name="&B;plant_mountaintopsend" text="Watchtowers pot 5"/>
+    <Split name="&B;plant_swamproute1" text="Flooded Fortress pot 1"/>
+    <Split name="&B;plant_swamproute2" text="Flooded Fortress pot 2"/>
+    <Split name="&B;plant_swampmiddle" text="Flooded Fortress pot 3"/>
+    <Split name="&B;plant_swamproute3" text="Flooded Fortress pot 4"/>
+    <Split name="&B;plant_swampwavebattle" text="Flooded Fortress pot 5"/>
   </Parent>
 
   <Parent name="Weapons" text="Weapons" tip="Splits when unlocking a weapon">
